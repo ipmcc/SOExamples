@@ -1,0 +1,11 @@
+Cocoa bindings docs are a bit thin on a lot of topics.  "Handles Content As Compound Value" is definitely one of those. The most information I was ever able to find in the Apple docs came from this diagram: 
+
+http://developer.apple.com/library/mac/#documentation/Cocoa/Conceptual/CocoaBindings/Concepts/MessageFlow.html
+
+This is a project that illustrates how this feature works.
+
+The main model object CVModel, is fully mutable, and therefore its controller doesn't need to set  "Handles Content As Compound Value".  Each individual key can be written directly, *at that level*.
+
+I'm also sorta double-tasking the compound value feature with ValueTransformers to allow bindings on scalar structures (NSSize, NSPoint).
+
+I'll elaborate on this description later if necessary.
