@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'TestSandbox' target in the 'TestSandbox' project
+//
+
+#ifdef __OBJC__
+    #import <Cocoa/Cocoa.h>
+#endif
