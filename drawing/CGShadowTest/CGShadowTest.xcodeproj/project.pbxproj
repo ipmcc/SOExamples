@@ -1,0 +1,315 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D9A49DC516970B84007B1D7E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9A49DC416970B84007B1D7E /* UIKit.framework */; };
+		D9A49DC716970B84007B1D7E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9A49DC616970B84007B1D7E /* Foundation.framework */; };
+		D9A49DC916970B84007B1D7E /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9A49DC816970B84007B1D7E /* CoreGraphics.framework */; };
+		D9A49DCF16970B84007B1D7E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D9A49DCD16970B84007B1D7E /* InfoPlist.strings */; };
+		D9A49DD116970B84007B1D7E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A49DD016970B84007B1D7E /* main.m */; };
+		D9A49DD516970B84007B1D7E /* SOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A49DD416970B84007B1D7E /* SOAppDelegate.m */; };
+		D9A49DD716970B84007B1D7E /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = D9A49DD616970B84007B1D7E /* Default.png */; };
+		D9A49DD916970B84007B1D7E /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D9A49DD816970B84007B1D7E /* Default@2x.png */; };
+		D9A49DDB16970B84007B1D7E /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D9A49DDA16970B84007B1D7E /* Default-568h@2x.png */; };
+		D9A49DDE16970B84007B1D7E /* SOViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A49DDD16970B84007B1D7E /* SOViewController.m */; };
+		D9A49DE416970B85007B1D7E /* SOViewController_iPad.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9A49DE216970B85007B1D7E /* SOViewController_iPad.xib */; };
+		D9A49DEC16970BA2007B1D7E /* SOCGShadowTestView.m in Sources */ = {isa = PBXBuildFile; fileRef = D9A49DEB16970BA2007B1D7E /* SOCGShadowTestView.m */; };
+		D9CEC9A6169711C000C686DC /* Beach.JPG in Resources */ = {isa = PBXBuildFile; fileRef = D9CEC9A5169711C000C686DC /* Beach.JPG */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D9A49DC016970B84007B1D7E /* CGShadowTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CGShadowTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9A49DC416970B84007B1D7E /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D9A49DC616970B84007B1D7E /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D9A49DC816970B84007B1D7E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D9A49DCC16970B84007B1D7E /* CGShadowTest-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "CGShadowTest-Info.plist"; sourceTree = "<group>"; };
+		D9A49DCE16970B84007B1D7E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D9A49DD016970B84007B1D7E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D9A49DD216970B84007B1D7E /* CGShadowTest-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CGShadowTest-Prefix.pch"; sourceTree = "<group>"; };
+		D9A49DD316970B84007B1D7E /* SOAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SOAppDelegate.h; sourceTree = "<group>"; };
+		D9A49DD416970B84007B1D7E /* SOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SOAppDelegate.m; sourceTree = "<group>"; };
+		D9A49DD616970B84007B1D7E /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		D9A49DD816970B84007B1D7E /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		D9A49DDA16970B84007B1D7E /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		D9A49DDC16970B84007B1D7E /* SOViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SOViewController.h; sourceTree = "<group>"; };
+		D9A49DDD16970B84007B1D7E /* SOViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SOViewController.m; sourceTree = "<group>"; };
+		D9A49DE316970B85007B1D7E /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SOViewController_iPad.xib; sourceTree = "<group>"; };
+		D9A49DEA16970BA2007B1D7E /* SOCGShadowTestView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SOCGShadowTestView.h; sourceTree = "<group>"; };
+		D9A49DEB16970BA2007B1D7E /* SOCGShadowTestView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SOCGShadowTestView.m; sourceTree = "<group>"; };
+		D9CEC9A5169711C000C686DC /* Beach.JPG */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = Beach.JPG; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9A49DBD16970B84007B1D7E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9A49DC516970B84007B1D7E /* UIKit.framework in Frameworks */,
+				D9A49DC716970B84007B1D7E /* Foundation.framework in Frameworks */,
+				D9A49DC916970B84007B1D7E /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D9A49DB516970B84007B1D7E = {
+			isa = PBXGroup;
+			children = (
+				D9A49DCA16970B84007B1D7E /* CGShadowTest */,
+				D9A49DC316970B84007B1D7E /* Frameworks */,
+				D9A49DC116970B84007B1D7E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D9A49DC116970B84007B1D7E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9A49DC016970B84007B1D7E /* CGShadowTest.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9A49DC316970B84007B1D7E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9A49DC416970B84007B1D7E /* UIKit.framework */,
+				D9A49DC616970B84007B1D7E /* Foundation.framework */,
+				D9A49DC816970B84007B1D7E /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9A49DCA16970B84007B1D7E /* CGShadowTest */ = {
+			isa = PBXGroup;
+			children = (
+				D9A49DD316970B84007B1D7E /* SOAppDelegate.h */,
+				D9A49DD416970B84007B1D7E /* SOAppDelegate.m */,
+				D9A49DDC16970B84007B1D7E /* SOViewController.h */,
+				D9A49DDD16970B84007B1D7E /* SOViewController.m */,
+				D9A49DE216970B85007B1D7E /* SOViewController_iPad.xib */,
+				D9A49DCB16970B84007B1D7E /* Supporting Files */,
+				D9A49DEA16970BA2007B1D7E /* SOCGShadowTestView.h */,
+				D9A49DEB16970BA2007B1D7E /* SOCGShadowTestView.m */,
+				D9CEC9A5169711C000C686DC /* Beach.JPG */,
+			);
+			path = CGShadowTest;
+			sourceTree = "<group>";
+		};
+		D9A49DCB16970B84007B1D7E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9A49DCC16970B84007B1D7E /* CGShadowTest-Info.plist */,
+				D9A49DCD16970B84007B1D7E /* InfoPlist.strings */,
+				D9A49DD016970B84007B1D7E /* main.m */,
+				D9A49DD216970B84007B1D7E /* CGShadowTest-Prefix.pch */,
+				D9A49DD616970B84007B1D7E /* Default.png */,
+				D9A49DD816970B84007B1D7E /* Default@2x.png */,
+				D9A49DDA16970B84007B1D7E /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9A49DBF16970B84007B1D7E /* CGShadowTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9A49DE716970B85007B1D7E /* Build configuration list for PBXNativeTarget "CGShadowTest" */;
+			buildPhases = (
+				D9A49DBC16970B84007B1D7E /* Sources */,
+				D9A49DBD16970B84007B1D7E /* Frameworks */,
+				D9A49DBE16970B84007B1D7E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CGShadowTest;
+			productName = CGShadowTestIOS;
+			productReference = D9A49DC016970B84007B1D7E /* CGShadowTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9A49DB716970B84007B1D7E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SO;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Ian McCullough";
+			};
+			buildConfigurationList = D9A49DBA16970B84007B1D7E /* Build configuration list for PBXProject "CGShadowTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D9A49DB516970B84007B1D7E;
+			productRefGroup = D9A49DC116970B84007B1D7E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9A49DBF16970B84007B1D7E /* CGShadowTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9A49DBE16970B84007B1D7E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9A49DCF16970B84007B1D7E /* InfoPlist.strings in Resources */,
+				D9A49DD716970B84007B1D7E /* Default.png in Resources */,
+				D9A49DD916970B84007B1D7E /* Default@2x.png in Resources */,
+				D9A49DDB16970B84007B1D7E /* Default-568h@2x.png in Resources */,
+				D9A49DE416970B85007B1D7E /* SOViewController_iPad.xib in Resources */,
+				D9CEC9A6169711C000C686DC /* Beach.JPG in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9A49DBC16970B84007B1D7E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9A49DD116970B84007B1D7E /* main.m in Sources */,
+				D9A49DD516970B84007B1D7E /* SOAppDelegate.m in Sources */,
+				D9A49DDE16970B84007B1D7E /* SOViewController.m in Sources */,
+				D9A49DEC16970BA2007B1D7E /* SOCGShadowTestView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D9A49DCD16970B84007B1D7E /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9A49DCE16970B84007B1D7E /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D9A49DE216970B85007B1D7E /* SOViewController_iPad.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9A49DE316970B85007B1D7E /* en */,
+			);
+			name = SOViewController_iPad.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D9A49DE516970B85007B1D7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D9A49DE616970B85007B1D7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D9A49DE816970B85007B1D7E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CGShadowTest/CGShadowTest-Prefix.pch";
+				INFOPLIST_FILE = "CGShadowTest/CGShadowTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = CGShadowTest;
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D9A49DE916970B85007B1D7E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "CGShadowTest/CGShadowTest-Prefix.pch";
+				INFOPLIST_FILE = "CGShadowTest/CGShadowTest-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				PRODUCT_NAME = CGShadowTest;
+				TARGETED_DEVICE_FAMILY = 2;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9A49DBA16970B84007B1D7E /* Build configuration list for PBXProject "CGShadowTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9A49DE516970B85007B1D7E /* Debug */,
+				D9A49DE616970B85007B1D7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9A49DE716970B85007B1D7E /* Build configuration list for PBXNativeTarget "CGShadowTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9A49DE816970B85007B1D7E /* Debug */,
+				D9A49DE916970B85007B1D7E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9A49DB716970B84007B1D7E /* Project object */;
+}
