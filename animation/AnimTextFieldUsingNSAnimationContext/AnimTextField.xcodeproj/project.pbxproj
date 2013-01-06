@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D9891B321699C8CD00046C90 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9891B311699C8CD00046C90 /* Cocoa.framework */; };
+		D9891B3C1699C8CD00046C90 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D9891B3A1699C8CD00046C90 /* InfoPlist.strings */; };
+		D9891B3E1699C8CD00046C90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9891B3D1699C8CD00046C90 /* main.m */; };
+		D9891B421699C8CD00046C90 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D9891B401699C8CD00046C90 /* Credits.rtf */; };
+		D9891B451699C8CD00046C90 /* SOAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D9891B441699C8CD00046C90 /* SOAppDelegate.m */; };
+		D9891B481699C8CD00046C90 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D9891B461699C8CD00046C90 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D9891B2D1699C8CD00046C90 /* AnimTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D9891B311699C8CD00046C90 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		D9891B341699C8CD00046C90 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		D9891B351699C8CD00046C90 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D9891B361699C8CD00046C90 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D9891B391699C8CD00046C90 /* AnimTextField-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "AnimTextField-Info.plist"; sourceTree = "<group>"; };
+		D9891B3B1699C8CD00046C90 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D9891B3D1699C8CD00046C90 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D9891B3F1699C8CD00046C90 /* AnimTextField-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "AnimTextField-Prefix.pch"; sourceTree = "<group>"; };
+		D9891B411699C8CD00046C90 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		D9891B431699C8CD00046C90 /* SOAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SOAppDelegate.h; sourceTree = "<group>"; };
+		D9891B441699C8CD00046C90 /* SOAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SOAppDelegate.m; sourceTree = "<group>"; };
+		D9891B471699C8CD00046C90 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D9891B2A1699C8CD00046C90 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9891B321699C8CD00046C90 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D9891B221699C8CD00046C90 = {
+			isa = PBXGroup;
+			children = (
+				D9891B371699C8CD00046C90 /* AnimTextField */,
+				D9891B301699C8CD00046C90 /* Frameworks */,
+				D9891B2E1699C8CD00046C90 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D9891B2E1699C8CD00046C90 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D9891B2D1699C8CD00046C90 /* AnimTextField.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D9891B301699C8CD00046C90 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9891B311699C8CD00046C90 /* Cocoa.framework */,
+				D9891B331699C8CD00046C90 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D9891B331699C8CD00046C90 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9891B341699C8CD00046C90 /* AppKit.framework */,
+				D9891B351699C8CD00046C90 /* CoreData.framework */,
+				D9891B361699C8CD00046C90 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		D9891B371699C8CD00046C90 /* AnimTextField */ = {
+			isa = PBXGroup;
+			children = (
+				D9891B431699C8CD00046C90 /* SOAppDelegate.h */,
+				D9891B441699C8CD00046C90 /* SOAppDelegate.m */,
+				D9891B461699C8CD00046C90 /* MainMenu.xib */,
+				D9891B381699C8CD00046C90 /* Supporting Files */,
+			);
+			path = AnimTextField;
+			sourceTree = "<group>";
+		};
+		D9891B381699C8CD00046C90 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D9891B391699C8CD00046C90 /* AnimTextField-Info.plist */,
+				D9891B3A1699C8CD00046C90 /* InfoPlist.strings */,
+				D9891B3D1699C8CD00046C90 /* main.m */,
+				D9891B3F1699C8CD00046C90 /* AnimTextField-Prefix.pch */,
+				D9891B401699C8CD00046C90 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D9891B2C1699C8CD00046C90 /* AnimTextField */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D9891B4B1699C8CD00046C90 /* Build configuration list for PBXNativeTarget "AnimTextField" */;
+			buildPhases = (
+				D9891B291699C8CD00046C90 /* Sources */,
+				D9891B2A1699C8CD00046C90 /* Frameworks */,
+				D9891B2B1699C8CD00046C90 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AnimTextField;
+			productName = AnimTextField;
+			productReference = D9891B2D1699C8CD00046C90 /* AnimTextField.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D9891B241699C8CD00046C90 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = SO;
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = Foobar;
+			};
+			buildConfigurationList = D9891B271699C8CD00046C90 /* Build configuration list for PBXProject "AnimTextField" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D9891B221699C8CD00046C90;
+			productRefGroup = D9891B2E1699C8CD00046C90 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D9891B2C1699C8CD00046C90 /* AnimTextField */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D9891B2B1699C8CD00046C90 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9891B3C1699C8CD00046C90 /* InfoPlist.strings in Resources */,
+				D9891B421699C8CD00046C90 /* Credits.rtf in Resources */,
+				D9891B481699C8CD00046C90 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D9891B291699C8CD00046C90 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D9891B3E1699C8CD00046C90 /* main.m in Sources */,
+				D9891B451699C8CD00046C90 /* SOAppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D9891B3A1699C8CD00046C90 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9891B3B1699C8CD00046C90 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D9891B401699C8CD00046C90 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9891B411699C8CD00046C90 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		D9891B461699C8CD00046C90 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D9891B471699C8CD00046C90 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D9891B491699C8CD00046C90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D9891B4A1699C8CD00046C90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D9891B4C1699C8CD00046C90 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AnimTextField/AnimTextField-Prefix.pch";
+				INFOPLIST_FILE = "AnimTextField/AnimTextField-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D9891B4D1699C8CD00046C90 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "AnimTextField/AnimTextField-Prefix.pch";
+				INFOPLIST_FILE = "AnimTextField/AnimTextField-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D9891B271699C8CD00046C90 /* Build configuration list for PBXProject "AnimTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9891B491699C8CD00046C90 /* Debug */,
+				D9891B4A1699C8CD00046C90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D9891B4B1699C8CD00046C90 /* Build configuration list for PBXNativeTarget "AnimTextField" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D9891B4C1699C8CD00046C90 /* Debug */,
+				D9891B4D1699C8CD00046C90 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D9891B241699C8CD00046C90 /* Project object */;
+}
