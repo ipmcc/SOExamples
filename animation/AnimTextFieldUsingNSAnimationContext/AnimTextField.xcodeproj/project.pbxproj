@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D984C766169AFCD300F84E4D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D984C765169AFCD300F84E4D /* QuartzCore.framework */; };
 		D9891B321699C8CD00046C90 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D9891B311699C8CD00046C90 /* Cocoa.framework */; };
 		D9891B3C1699C8CD00046C90 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D9891B3A1699C8CD00046C90 /* InfoPlist.strings */; };
 		D9891B3E1699C8CD00046C90 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D9891B3D1699C8CD00046C90 /* main.m */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		D984C765169AFCD300F84E4D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		D9891B2D1699C8CD00046C90 /* AnimTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D9891B311699C8CD00046C90 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
 		D9891B341699C8CD00046C90 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
@@ -36,6 +38,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D984C766169AFCD300F84E4D /* QuartzCore.framework in Frameworks */,
 				D9891B321699C8CD00046C90 /* Cocoa.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -46,6 +49,7 @@
 		D9891B221699C8CD00046C90 = {
 			isa = PBXGroup;
 			children = (
+				D984C765169AFCD300F84E4D /* QuartzCore.framework */,
 				D9891B371699C8CD00046C90 /* AnimTextField */,
 				D9891B301699C8CD00046C90 /* Frameworks */,
 				D9891B2E1699C8CD00046C90 /* Products */,
@@ -296,6 +300,7 @@
 				D9891B4D1699C8CD00046C90 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

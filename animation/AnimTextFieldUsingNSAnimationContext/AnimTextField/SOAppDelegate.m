@@ -7,6 +7,7 @@
 //
 
 #import "SOAppDelegate.h"
+#import <QuartzCore/QuartzCore.h>
 
 @interface NSTextField (AnimatedSetString)
 
@@ -25,12 +26,14 @@
     
     [NSAnimationContext runAnimationGroup:^(NSAnimationContext *context) {
         [context setDuration: 1.0];
+        [context setTimingFunction: [CAMediaTimingFunction functionWithName: kCAMediaTimingFunctionEaseOut]];
         [self.animator setAlphaValue: 0.0];
     }
                         completionHandler:^{
-                            [self setStringValue: [self.stringValue isEqual: @"bar"] ? @"foo" : @"bar"];
+                            [self setStringValue: aString];
                             [NSAnimationContext runAnimationGroup:^(NSAnimationContext *context) {
                                 [context setDuration: 1.0];
+                                [context setTimingFunction: [CAMediaTimingFunction functionWithName: kCAMediaTimingFunctionEaseIn]];
                                 [self.animator setAlphaValue: 1.0];
                             } completionHandler: ^{}];
                         }];
