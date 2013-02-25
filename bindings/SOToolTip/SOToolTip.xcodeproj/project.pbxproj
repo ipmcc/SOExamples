@@ -1,0 +1,308 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D990938C16DBD19F003A6F57 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D990938B16DBD19F003A6F57 /* Cocoa.framework */; };
+		D990939616DBD19F003A6F57 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D990939416DBD19F003A6F57 /* InfoPlist.strings */; };
+		D990939816DBD19F003A6F57 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D990939716DBD19F003A6F57 /* main.m */; };
+		D990939C16DBD19F003A6F57 /* Credits.rtf in Resources */ = {isa = PBXBuildFile; fileRef = D990939A16DBD19F003A6F57 /* Credits.rtf */; };
+		D990939F16DBD19F003A6F57 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D990939E16DBD19F003A6F57 /* AppDelegate.m */; };
+		D99093A216DBD19F003A6F57 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D99093A016DBD19F003A6F57 /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		D990938816DBD19F003A6F57 /* SOToolTip.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SOToolTip.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D990938B16DBD19F003A6F57 /* Cocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Cocoa.framework; path = System/Library/Frameworks/Cocoa.framework; sourceTree = SDKROOT; };
+		D990938E16DBD19F003A6F57 /* AppKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AppKit.framework; path = System/Library/Frameworks/AppKit.framework; sourceTree = SDKROOT; };
+		D990938F16DBD19F003A6F57 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		D990939016DBD19F003A6F57 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D990939316DBD19F003A6F57 /* SOToolTip-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SOToolTip-Info.plist"; sourceTree = "<group>"; };
+		D990939516DBD19F003A6F57 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D990939716DBD19F003A6F57 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D990939916DBD19F003A6F57 /* SOToolTip-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SOToolTip-Prefix.pch"; sourceTree = "<group>"; };
+		D990939B16DBD19F003A6F57 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.rtf; name = en; path = en.lproj/Credits.rtf; sourceTree = "<group>"; };
+		D990939D16DBD19F003A6F57 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D990939E16DBD19F003A6F57 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D99093A116DBD19F003A6F57 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D990938516DBD19F003A6F57 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D990938C16DBD19F003A6F57 /* Cocoa.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D990937F16DBD19F003A6F57 = {
+			isa = PBXGroup;
+			children = (
+				D990939116DBD19F003A6F57 /* SOToolTip */,
+				D990938A16DBD19F003A6F57 /* Frameworks */,
+				D990938916DBD19F003A6F57 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D990938916DBD19F003A6F57 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D990938816DBD19F003A6F57 /* SOToolTip.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D990938A16DBD19F003A6F57 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D990938B16DBD19F003A6F57 /* Cocoa.framework */,
+				D990938D16DBD19F003A6F57 /* Other Frameworks */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D990938D16DBD19F003A6F57 /* Other Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D990938E16DBD19F003A6F57 /* AppKit.framework */,
+				D990938F16DBD19F003A6F57 /* CoreData.framework */,
+				D990939016DBD19F003A6F57 /* Foundation.framework */,
+			);
+			name = "Other Frameworks";
+			sourceTree = "<group>";
+		};
+		D990939116DBD19F003A6F57 /* SOToolTip */ = {
+			isa = PBXGroup;
+			children = (
+				D990939D16DBD19F003A6F57 /* AppDelegate.h */,
+				D990939E16DBD19F003A6F57 /* AppDelegate.m */,
+				D99093A016DBD19F003A6F57 /* MainMenu.xib */,
+				D990939216DBD19F003A6F57 /* Supporting Files */,
+			);
+			path = SOToolTip;
+			sourceTree = "<group>";
+		};
+		D990939216DBD19F003A6F57 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D990939316DBD19F003A6F57 /* SOToolTip-Info.plist */,
+				D990939416DBD19F003A6F57 /* InfoPlist.strings */,
+				D990939716DBD19F003A6F57 /* main.m */,
+				D990939916DBD19F003A6F57 /* SOToolTip-Prefix.pch */,
+				D990939A16DBD19F003A6F57 /* Credits.rtf */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D990938716DBD19F003A6F57 /* SOToolTip */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D99093A516DBD19F003A6F57 /* Build configuration list for PBXNativeTarget "SOToolTip" */;
+			buildPhases = (
+				D990938416DBD19F003A6F57 /* Sources */,
+				D990938516DBD19F003A6F57 /* Frameworks */,
+				D990938616DBD19F003A6F57 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SOToolTip;
+			productName = SOToolTip;
+			productReference = D990938816DBD19F003A6F57 /* SOToolTip.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D990938016DBD19F003A6F57 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = FooBar;
+			};
+			buildConfigurationList = D990938316DBD19F003A6F57 /* Build configuration list for PBXProject "SOToolTip" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D990937F16DBD19F003A6F57;
+			productRefGroup = D990938916DBD19F003A6F57 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D990938716DBD19F003A6F57 /* SOToolTip */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D990938616DBD19F003A6F57 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D990939616DBD19F003A6F57 /* InfoPlist.strings in Resources */,
+				D990939C16DBD19F003A6F57 /* Credits.rtf in Resources */,
+				D99093A216DBD19F003A6F57 /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D990938416DBD19F003A6F57 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D990939816DBD19F003A6F57 /* main.m in Sources */,
+				D990939F16DBD19F003A6F57 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		D990939416DBD19F003A6F57 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D990939516DBD19F003A6F57 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D990939A16DBD19F003A6F57 /* Credits.rtf */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D990939B16DBD19F003A6F57 /* en */,
+			);
+			name = Credits.rtf;
+			sourceTree = "<group>";
+		};
+		D99093A016DBD19F003A6F57 /* MainMenu.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D99093A116DBD19F003A6F57 /* en */,
+			);
+			name = MainMenu.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D99093A316DBD19F003A6F57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D99093A416DBD19F003A6F57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.8;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D99093A616DBD19F003A6F57 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SOToolTip/SOToolTip-Prefix.pch";
+				INFOPLIST_FILE = "SOToolTip/SOToolTip-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D99093A716DBD19F003A6F57 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SOToolTip/SOToolTip-Prefix.pch";
+				INFOPLIST_FILE = "SOToolTip/SOToolTip-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D990938316DBD19F003A6F57 /* Build configuration list for PBXProject "SOToolTip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D99093A316DBD19F003A6F57 /* Debug */,
+				D99093A416DBD19F003A6F57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D99093A516DBD19F003A6F57 /* Build configuration list for PBXNativeTarget "SOToolTip" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D99093A616DBD19F003A6F57 /* Debug */,
+				D99093A716DBD19F003A6F57 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D990938016DBD19F003A6F57 /* Project object */;
+}
